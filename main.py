@@ -61,6 +61,7 @@ def analyze_with_vision(text_content, images_parts):
     3. Location: MUST match one of the 4 regions above exactly based on the neighborhood.
     4. Price: Integer only. Remove "SAR", "ريال", commas, or spaces.
     5. Area: Float or Integer only. Remove "sqm", "متر", or any text.
+    6. Project_Name: String format. The specific name of the project (Example: نصل 18).
 
     Constraint Checklist (Zero Tolerance):
     - No conversational filler. No "Here is the JSON".
